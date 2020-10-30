@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>                         
-#define FIREBASE_HOST "potent-symbol-233716.firebaseio.com"
-#define FIREBASE_AUTH "9A74gC5uUKt69dHqyX1QmMTL1C2lW5W3xYqu0z4X"
-#define WIFI_SSID "IOT" 
-#define WIFI_PASSWORD "12345678"
+#define FIREBASE_HOST "YOUR_FIREBASE_HOST"
+#define FIREBASE_AUTH "YOUR_AUTH_KEY"
+#define WIFI_SSID "YOUR_WIFI" 
+#define WIFI_PASSWORD "YOUR_PASSWORD"
 FirebaseData firebaseData;
 int val=0;
 int gval=0;
